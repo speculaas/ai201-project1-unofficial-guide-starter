@@ -60,7 +60,7 @@ The original URLs for each Reddit thread are listed in `source_manifest.md` and 
 
 ```mermaid
 flowchart LR
-    A["Document Ingestion<br/>local .txt files + metadata parser"] --> B["Chunking<br/>paragraph-aware, 900 chars, 150 overlap"]
+    A["Document Ingestion<br/>local .txt files + metadata parser"] --> B["Chunking<br/>paragraph-aware, 1000 chars, 150 overlap"]
     B --> C["Embedding + Vector Store<br/>all-MiniLM-L6-v2 + ChromaDB"]
     C --> D["Retrieval<br/>top-k semantic search"]
     D --> E["Generation<br/>Groq llama-3.3-70b-versatile with cited context"]

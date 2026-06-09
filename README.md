@@ -176,4 +176,4 @@ The implementation diverged from the early spec because I added an official UC B
 
 **Instance 2:** I used Codex to scaffold the RAG pipeline from my homework requirements and planning document. I then redirected the chunking implementation so it used only `MANUAL_COLLECTION_SPACE:` content and ignored helper summaries, because the summaries were planning aids rather than final retrievable evidence.
 
-**Instance 3:** I used GPT 5.5 / Codex to turn the raw retrieval and generation logs into evaluation notes and this README. I kept the documented judgments tied to the actual `eval_outputs` files and did not include runtime warning noise in the polished report.
+**Instance 3:** I used GPT 5.5 / Codex to turn the raw retrieval and generation logs into `eval_outputs/03_evaluation_notes.md` and this README. After Codex hit its quota, I used Cursor to verify the write-up against the actual `eval_outputs` files and fix a small chunk-size mismatch in `planning.md`.
