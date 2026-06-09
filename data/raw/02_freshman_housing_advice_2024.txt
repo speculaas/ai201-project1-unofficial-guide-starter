@@ -1,0 +1,16 @@
+TITLE: freshman housing advice
+SOURCE: Reddit r/berkeley
+URL: https://www.reddit.com/r/berkeley/comments/1cb090j/freshman_housing_advice/
+DATE_ACCESSED: 2026-06-08
+TOPIC: freshman dorm ranking, Unit 1, Unit 2, Unit 3, Clark Kerr, Blackwell
+DOCUMENT_TYPE: Reddit thread starter file
+COPYRIGHT_NOTE: This file contains metadata plus a brief paraphrased summary/short excerpt for project setup. For your final corpus, open the URL and manually paste only the post/comments you are allowed to use under your course policy, or cite the URL and keep this as a summarized source.
+
+SUMMARY:
+Incoming student asks for recommendations among Unit 1, Unit 3, Clark Kerr, and Unit 2. Comments emphasize that preferences may not control placement, Blackwell is worth listing, Unit 1/2/3 are likely outcomes, and roommate choice can strongly affect the dorm experience.
+
+SHORT_EXCERPT_OR_NOTES:
+Students discuss that Berkeley may place freshmen randomly despite rankings; one recommends listing Blackwell, Unit 1, Unit 3, Clark Kerr, and then any building/any size. Another warns about random roommates and Unit 3.
+
+MANUAL_COLLECTION_SPACE:
+Paste selected relevant public post/comment text here if your course permits using it. Remove Reddit UI noise such as Reply, Award, Share, Sort by, and vote counts.

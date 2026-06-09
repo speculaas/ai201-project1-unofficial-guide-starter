@@ -1,0 +1,16 @@
+TITLE: A Complete Guide for UC Berkeley New Admits - Housing (1)
+SOURCE: Reddit r/berkeley
+URL: https://www.reddit.com/r/berkeley/comments/12c6oeb/a_complete_guide_for_uc_berkeley_new_admits/
+DATE_ACCESSED: 2026-06-08
+TOPIC: on-campus housing, first-year housing, housing guarantee
+DOCUMENT_TYPE: Reddit thread starter file
+COPYRIGHT_NOTE: This file contains metadata plus a brief paraphrased summary/short excerpt for project setup. For your final corpus, open the URL and manually paste only the post/comments you are allowed to use under your course policy, or cite the URL and keep this as a summarized source.
+
+SUMMARY:
+A student guide for new admits discussing UC Berkeley on-campus housing, the idea that freshmen use official residence halls initially, and that students often need to search for other housing after the first year. A comment adds that the housing guarantee depends on applying by the deadline and selecting broad preferences such as any building/any room configuration.
+
+SHORT_EXCERPT_OR_NOTES:
+The post says first-year students may not stay in the same dorm all four years and introduces official residence halls first. A comment notes the freshman guarantee depends on applying before the deadline and keeping the last choice broad.
+
+MANUAL_COLLECTION_SPACE:
+Paste selected relevant public post/comment text here if your course permits using it. Remove Reddit UI noise such as Reply, Award, Share, Sort by, and vote counts.

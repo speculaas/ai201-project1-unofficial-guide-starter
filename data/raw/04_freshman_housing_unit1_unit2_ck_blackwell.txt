@@ -1,0 +1,16 @@
+TITLE: Freshman Housing: Advice
+SOURCE: Reddit r/berkeley
+URL: https://www.reddit.com/r/berkeley/comments/ugfili/freshman_housing_advice/
+DATE_ACCESSED: 2026-06-08
+TOPIC: Unit 1, Unit 2, Clark Kerr, Blackwell, walking distance
+DOCUMENT_TYPE: Reddit thread starter file
+COPYRIGHT_NOTE: This file contains metadata plus a brief paraphrased summary/short excerpt for project setup. For your final corpus, open the URL and manually paste only the post/comments you are allowed to use under your course policy, or cite the URL and keep this as a summarized source.
+
+SUMMARY:
+Student asks whether to rank Unit 1, Unit 2, Clark Kerr, or Blackwell. Comments focus on distance and convenience: Clark Kerr is described as much farther from the main gate, while Units are closer; Blackwell is described as new, close to campus, and having strong amenities.
+
+SHORT_EXCERPT_OR_NOTES:
+A commenter says Clark Kerr can be around a 20+ minute walk from the main gate, while the Units are more like a 5–10 minute walk from Sather Gate. Another says Blackwell is near campus, Cafe 3, Crossroads, lounges, and a gym.
+
+MANUAL_COLLECTION_SPACE:
+Paste selected relevant public post/comment text here if your course permits using it. Remove Reddit UI noise such as Reply, Award, Share, Sort by, and vote counts.

@@ -1,0 +1,16 @@
+TITLE: Best recommended housing option for incoming UC Berkeley freshman
+SOURCE: Reddit r/berkeley
+URL: https://www.reddit.com/r/berkeley/comments/me683s/best_recommended_housing_option_for_incoming_uc/
+DATE_ACCESSED: 2026-06-08
+TOPIC: freshman dorm comparison, dorm quality, social life, dining, safety
+DOCUMENT_TYPE: Reddit thread starter file
+COPYRIGHT_NOTE: This file contains metadata plus a brief paraphrased summary/short excerpt for project setup. For your final corpus, open the URL and manually paste only the post/comments you are allowed to use under your course policy, or cite the URL and keep this as a summarized source.
+
+SUMMARY:
+Students compare Blackwell, Foothill, Unit 1/2, Unit 3, Stern, and Clark Kerr. The thread includes tradeoffs: Blackwell is newer, Foothill is closer to engineering and quieter, Units are more traditional/social, Unit 3 is older, and Clark Kerr has larger rooms but is farther from campus.
+
+SHORT_EXCERPT_OR_NOTES:
+One comment calls Unit 1 a strong location near Crossroads and high-traffic areas. Another describes Blackwell as newest, Foothill as quieter and closer to engineering, Unit 1/2 as typical social dorms, and Clark Kerr as farther but with bigger rooms.
+
+MANUAL_COLLECTION_SPACE:
+Paste selected relevant public post/comment text here if your course permits using it. Remove Reddit UI noise such as Reply, Award, Share, Sort by, and vote counts.

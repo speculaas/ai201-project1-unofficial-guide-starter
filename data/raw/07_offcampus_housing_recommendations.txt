@@ -1,0 +1,16 @@
+TITLE: Off campus housing recommendations?
+SOURCE: Reddit r/berkeley
+URL: https://www.reddit.com/r/berkeley/comments/o4hpmy/off_campus_housing_recommendations/
+DATE_ACCESSED: 2026-06-08
+TOPIC: off-campus rent expectations, amenities, scams, CalRentals
+DOCUMENT_TYPE: Reddit thread starter file
+COPYRIGHT_NOTE: This file contains metadata plus a brief paraphrased summary/short excerpt for project setup. For your final corpus, open the URL and manually paste only the post/comments you are allowed to use under your course policy, or cite the URL and keep this as a summarized source.
+
+SUMMARY:
+Transfer student asks for off-campus housing recommendations with a $2k/month budget and desired amenities. Comments discuss Berkeley’s expensive and older housing stock, tradeoffs among budget, private bathroom, and in-unit laundry, and warn about scams on Craigslist and Facebook.
+
+SHORT_EXCERPT_OR_NOTES:
+A commenter says Berkeley housing is expensive and older; $2,000 may get a studio/1-bedroom or a room in a shared apartment, but in-unit laundry and private bathroom together may cost more. Others recommend Facebook groups, Craigslist, Apartments.com, and CalRentals while avoiding scams.
+
+MANUAL_COLLECTION_SPACE:
+Paste selected relevant public post/comment text here if your course permits using it. Remove Reddit UI noise such as Reply, Award, Share, Sort by, and vote counts.

@@ -1,162 +1,130 @@
-# The Unofficial Guide — Project 1
+# The Unofficial Guide - UC Berkeley Housing RAG
 
-> **How to use this template:**
-> Complete each section *after* you've built and tested the corresponding part of your system.
-> Do not write placeholder text — if a section isn't done yet, leave it blank and come back.
-> Every section below is required for submission. One-liners will not receive full credit.
-
----
+This project builds a small retrieval-augmented generation system for student-generated UC Berkeley housing advice. It ingests local text documents, chunks them, embeds them with a local sentence-transformers model, stores them in ChromaDB, retrieves relevant chunks for a question, and asks a Groq-hosted LLM to answer using only those retrieved excerpts.
 
 ## Domain
 
-<!-- What topic or category of knowledge does your system cover?
-     Why is this knowledge valuable, and why is it hard to find through official channels?
-     Example: "Student reviews of CS professors at [university] — useful because official
-     course descriptions don't reflect teaching style, exam difficulty, or workload." -->
-
----
+The system covers student advice about UC Berkeley housing: freshman dorm choices, Clark Kerr vs Unit 1 tradeoffs, off-campus search timing, lower-cost options, co-ops, scams, rent expectations, and student-reported rental warnings. This knowledge is valuable because official housing pages explain policies, but students often want practical and subjective experiences that are scattered across Reddit threads.
 
 ## Document Sources
 
-<!-- List every source you collected documents from.
-     Be specific: include URLs, subreddit names, forum thread titles, or file names.
-     Aim for variety — sources that together cover different subtopics or perspectives. -->
+The raw corpus lives in `data/raw/`. The starter files contain metadata, source URLs, short summaries, and notes from a previous collection step; they intentionally do not copy full Reddit threads wholesale. For a stronger final corpus, paste selected permitted excerpts into each file's `MANUAL_COLLECTION_SPACE` and rerun the pipeline.
 
 | # | Source | Type | URL or file path |
 |---|--------|------|-----------------|
-| 1 | | | |
-| 2 | | | |
-| 3 | | | |
-| 4 | | | |
-| 5 | | | |
-| 6 | | | |
-| 7 | | | |
-| 8 | | | |
-| 9 | | | |
-| 10 | | | |
+| 1 | A Complete Guide for UC Berkeley New Admits - Housing | Reddit starter note | `data/raw/01_new_admits_housing_guide.txt` |
+| 2 | freshman housing advice | Reddit starter note | `data/raw/02_freshman_housing_advice_2024.txt` |
+| 3 | Best recommended housing option for incoming UC Berkeley freshman | Reddit starter note | `data/raw/03_best_freshman_housing_options.txt` |
+| 4 | Freshman Housing: Advice | Reddit starter note | `data/raw/04_freshman_housing_unit1_unit2_ck_blackwell.txt` |
+| 5 | dorm advice | Reddit starter note | `data/raw/05_dorm_advice_ck_vs_unit1.txt` |
+| 6 | Off-campus Housing Search Tips | Reddit starter note | `data/raw/06_offcampus_housing_search_tips.txt` |
+| 7 | Off campus housing recommendations? | Reddit starter note | `data/raw/07_offcampus_housing_recommendations.txt` |
+| 8 | cheap off campus housing options | Reddit starter note | `data/raw/08_cheap_offcampus_housing_options.txt` |
+| 9 | Is the housing situation THAT bad? | Reddit starter note | `data/raw/09_is_housing_that_bad.txt` |
+| 10 | LIST OF PLACES YOU SHOULD !NOT! RENT | Reddit starter note | `data/raw/10_places_not_to_rent.txt` |
 
----
+Original source URLs are listed in `source_manifest.md` and in each raw file header.
+
+## Setup
+
+```bash
+python -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.txt
+cp .env.example .env
+```
+
+Add your Groq key to `.env`:
+
+```bash
+GROQ_API_KEY=your_real_key_here
+```
+
+## Run The Pipeline
+
+Run these commands from the repo root:
+
+```bash
+python src/ingest.py
+python src/chunk.py
+python src/embed.py
+python src/app.py --retrieval-only "What are the main tradeoffs between Clark Kerr and Unit 1?"
+python src/app.py "What are the main tradeoffs between Clark Kerr and Unit 1?"
+```
+
+Use `--retrieval-only` while checking whether semantic search is working before spending LLM calls.
 
 ## Chunking Strategy
 
-<!-- Describe your chunking approach with enough specificity that someone else could reproduce it.
-     Include:
-     - Chunk size (characters or tokens) and why that size fits your documents
-     - Overlap size and why (or why not) you used overlap
-     - Any preprocessing you did before chunking (e.g., stripping HTML, removing headers)
-     - What your final chunk count was across all documents -->
+**Chunk size:** 900 characters.
 
-**Chunk size:**
+**Overlap:** 150 characters for long sections that must be split.
 
-**Overlap:**
+**Why these choices fit your documents:** The corpus is made of short Reddit-thread notes and summaries. Paragraph-aware chunks keep each advice point coherent, while the 900-character target avoids mixing too many different dorm or off-campus topics into one chunk. The overlap only matters for longer manually pasted comments.
 
-**Why these choices fit your documents:**
-
-**Final chunk count:**
-
----
+**Final chunk count:** Run `python src/chunk.py` and record the printed count here.
 
 ## Embedding Model
 
-<!-- Name the embedding model you used and explain your choice.
-     Then answer: if you were deploying this system for real users and cost wasn't a constraint,
-     what tradeoffs would you weigh in choosing a different model?
-     Consider: context length limits, multilingual support, accuracy on domain-specific text,
-     latency, and local vs. API-hosted. -->
+**Model used:** `sentence-transformers/all-MiniLM-L6-v2`.
 
-**Model used:**
-
-**Production tradeoff reflection:**
-
----
+**Production tradeoff reflection:** This model is free, fast, and local, which fits the assignment. In production I would compare it against stronger hosted embedding models with better accuracy on noisy student language, longer context support, multilingual support, and better latency at scale. I would also weigh privacy and cost against the simplicity of local embeddings.
 
 ## Grounded Generation
 
-<!-- Explain how your system enforces grounding — how does it prevent the LLM from answering
-     beyond the retrieved documents?
-     Describe both your system prompt (what instruction you gave the model) and any structural
-     choices (e.g., how you formatted the context, whether you filtered low-relevance chunks).
-     Do not just say "I told it to use the documents" — show the actual instruction or explain
-     the mechanism. -->
-
 **System prompt grounding instruction:**
 
-**How source attribution is surfaced in the response:**
+```text
+You answer questions for a UC Berkeley student housing unofficial guide.
+Use only the retrieved source excerpts provided in the user message.
+If the excerpts do not contain enough evidence, say you do not have enough information.
+Treat Reddit material as subjective student advice, not verified fact.
+Include a short Sources section that lists the source numbers you used.
+```
 
----
+**How source attribution is surfaced in the response:** `src/generate.py` labels retrieved chunks as `[Source 1]`, `[Source 2]`, and so on, with title, URL, topic, and excerpt. The final answer is instructed to include a Sources section, and `src/app.py` prints the retrieved chunks after the answer for auditability.
 
 ## Evaluation Report
 
-<!-- Run your 5 test questions from planning.md through your system and record the results.
-     Be honest — a partially accurate or inaccurate result that you explain well is more
-     valuable than a suspiciously perfect result. -->
+Run the five questions from `planning.md` after building the vector store. Paste concise results here.
 
 | # | Question | Expected answer | System response (summarized) | Retrieval quality | Response accuracy |
 |---|----------|-----------------|------------------------------|-------------------|-------------------|
-| 1 | | | | | |
-| 2 | | | | | |
-| 3 | | | | | |
-| 4 | | | | | |
-| 5 | | | | | |
+| 1 | Which UC Berkeley dorms do students recommend for freshmen who care about social life? | Unit 1, Unit 2, Unit 3, and Clark Kerr appear as social options, with tradeoffs around location, room size, and convenience. | Not run yet | Not run yet | Not run yet |
+| 2 | What are the main tradeoffs between Clark Kerr and Unit 1? | Clark Kerr is more spacious/social but farther; Unit 1 is more convenient and closer to food and activities. | Not run yet | Not run yet | Not run yet |
+| 3 | When do students suggest starting the off-campus housing search? | Spring semester, often late February or early March; April may still work but can be stressful. | Not run yet | Not run yet | Not run yet |
+| 4 | What resources do students mention for finding off-campus housing? | Cal Rentals, Craigslist, Zillow, Trulia, Facebook groups, rental agencies, signs, lease takeovers, co-ops, and transit-accessible areas. | Not run yet | Not run yet | Not run yet |
+| 5 | Which apartment has the objectively lowest crime risk near UC Berkeley? | The system should say it does not have enough information because the corpus lacks verified crime statistics. | Not run yet | Not run yet | Not run yet |
 
 **Retrieval quality:** Relevant / Partially relevant / Off-target  
 **Response accuracy:** Accurate / Partially accurate / Inaccurate
 
----
-
 ## Failure Case Analysis
 
-<!-- Identify at least one question where retrieval or generation did not work as expected.
-     Write a specific explanation of *why* it failed, tied to a part of the pipeline.
+**Question that failed:** Fill in after testing. The intended stress test is: "Which apartment has the objectively lowest crime risk near UC Berkeley?"
 
-     "The answer was wrong" is not an explanation.
+**What the system returned:** Not run yet.
 
-     "The relevant information was split across a chunk boundary, so retrieval returned
-     only half the context — the model didn't have enough to answer correctly" is an explanation.
+**Root cause (tied to a specific pipeline stage):** Not run yet. A likely root cause would be that the corpus contains subjective student warnings but no verified crime data.
 
-     "The embedding model treated the professor's nickname as out-of-vocabulary and returned
-     results from an unrelated review" is an explanation. -->
-
-**Question that failed:**
-
-**What the system returned:**
-
-**Root cause (tied to a specific pipeline stage):**
-
-**What you would change to fix it:**
-
----
+**What you would change to fix it:** If the failure matters, add verified public safety data as a separate source type and add metadata/source-type filtering so the system can separate subjective Reddit advice from official statistics.
 
 ## Spec Reflection
 
-<!-- Reflect on how planning.md shaped your implementation.
-     Answer both questions with at least 2–3 sentences each. -->
+**One way the spec helped you during implementation:** The spec made the chunking strategy concrete before writing code. That kept the implementation focused on paragraph-aware chunks with source metadata instead of a generic fixed-size splitter.
 
-**One way the spec helped you during implementation:**
-
-**One way your implementation diverged from the spec, and why:**
-
----
+**One way your implementation diverged from the spec, and why:** The interface is a CLI instead of a web UI. The assignment allows a CLI, and it is the lowest-risk interface while the environment still needs to be tested on another computer.
 
 ## AI Usage
 
-<!-- Describe at least 2 specific instances where you used an AI tool during this project.
-     For each: what did you give the AI as input, what did it produce, and what did you
-     change, override, or direct differently?
-
-     "I used Claude to help me code" is not sufficient.
-     "I gave Claude my Chunking Strategy section from planning.md and asked it to implement
-     chunk_text(). It returned a function using a fixed character split. I overrode the
-     chunk size from 500 to 200 because my documents are short reviews, not long guides." -->
-
 **Instance 1**
 
-- *What I gave the AI:*
-- *What it produced:*
-- *What I changed or overrode:*
+- *What I gave the AI:* The homework requirements, the prior GPT 5.5 notes, the UC Berkeley housing source manifest, and the starter repo structure.
+- *What it produced:* A planning document and scripts for ingestion, chunking, embedding, retrieval, grounded generation, and a CLI.
+- *What I changed or overrode:* I kept the corpus as summarized starter notes rather than copying full Reddit threads, and I kept evaluation outputs marked as not run because the environment should be tested elsewhere.
 
 **Instance 2**
 
-- *What I gave the AI:*
-- *What it produced:*
-- *What I changed or overrode:*
+- *What I gave the AI:* The chunking and retrieval requirements from `planning.md`.
+- *What it produced:* A pipeline that writes JSONL artifacts and uses ChromaDB with `all-MiniLM-L6-v2`.
+- *What I changed or overrode:* I made generation optional behind the CLI path and added `--retrieval-only` so retrieval can be inspected before calling Groq.

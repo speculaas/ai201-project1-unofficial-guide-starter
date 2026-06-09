@@ -1,0 +1,16 @@
+TITLE: cheap off campus housing options
+SOURCE: Reddit r/berkeley
+URL: https://www.reddit.com/r/berkeley/comments/18rteuo/cheap_off_campus_housing_options/
+DATE_ACCESSED: 2026-06-08
+TOPIC: cheap housing, first-gen student, Cal Rentals, co-ops, lease takeover, BART/bus
+DOCUMENT_TYPE: Reddit thread starter file
+COPYRIGHT_NOTE: This file contains metadata plus a brief paraphrased summary/short excerpt for project setup. For your final corpus, open the URL and manually paste only the post/comments you are allowed to use under your course policy, or cite the URL and keep this as a summarized source.
+
+SUMMARY:
+Freshman asks how to find cheap housing for the next year. Comments suggest Cal Rentals, lease takeovers, walking around for signs, Berkeley Student Cooperative/co-ops, Facebook housing groups, apartments.com, looking farther along bus/BART lines, and single rooms in houses.
+
+SHORT_EXCERPT_OR_NOTES:
+Suggestions include Cal Rentals, taking over someone else’s lease, walking around to call signs, co-ops, Facebook groups, Apartments.com, BSC, and looking farther out along bus or BART lines.
+
+MANUAL_COLLECTION_SPACE:
+Paste selected relevant public post/comment text here if your course permits using it. Remove Reddit UI noise such as Reply, Award, Share, Sort by, and vote counts.

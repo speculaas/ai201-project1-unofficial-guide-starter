@@ -1,0 +1,16 @@
+TITLE: LIST OF PLACES YOU SHOULD !NOT! RENT
+SOURCE: Reddit r/berkeley
+URL: https://www.reddit.com/r/berkeley/comments/138y8hn/list_of_places_you_should_not_rent/
+DATE_ACCESSED: 2026-06-08
+TOPIC: warnings, places to avoid, property management complaints, tenant experiences
+DOCUMENT_TYPE: Reddit thread starter file
+COPYRIGHT_NOTE: This file contains metadata plus a brief paraphrased summary/short excerpt for project setup. For your final corpus, open the URL and manually paste only the post/comments you are allowed to use under your course policy, or cite the URL and keep this as a summarized source.
+
+SUMMARY:
+A student warning thread listing buildings and property companies that commenters claim have problems such as pests, maintenance issues, overcrowding, dirty bathrooms, water issues, rude staff, or hard-to-reach management. This is subjective student testimony and should be cited as opinion, not verified fact.
+
+SHORT_EXCERPT_OR_NOTES:
+The post warns about certain shared spaces and property companies, alleging issues such as pests, overcrowding, maintenance problems, cleanliness concerns, and hard-to-contact management. Treat as subjective student claims.
+
+MANUAL_COLLECTION_SPACE:
+Paste selected relevant public post/comment text here if your course permits using it. Remove Reddit UI noise such as Reply, Award, Share, Sort by, and vote counts.

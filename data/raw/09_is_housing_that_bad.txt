@@ -1,0 +1,16 @@
+TITLE: Is the housing situation THAT bad?
+SOURCE: Reddit r/berkeley
+URL: https://www.reddit.com/r/berkeley/comments/waq7ha/is_the_housing_situation_that_bad/
+DATE_ACCESSED: 2026-06-08
+TOPIC: Berkeley housing difficulty, affordability, off-campus options, co-ops
+DOCUMENT_TYPE: Reddit thread starter file
+COPYRIGHT_NOTE: This file contains metadata plus a brief paraphrased summary/short excerpt for project setup. For your final corpus, open the URL and manually paste only the post/comments you are allowed to use under your course policy, or cite the URL and keep this as a summarized source.
+
+SUMMARY:
+Potential applicant asks whether Berkeley housing is truly as bad as reported. Comments generally say housing is manageable but expensive, especially near campus; students recommend starting early, considering co-ops if willing to do work hours, using roommates, and looking farther from campus for cheaper options.
+
+SHORT_EXCERPT_OR_NOTES:
+Students say the issue is less total impossibility and more high prices. Suggestions include starting early, co-ops, roommates, Oakland/areas farther away, BART/bus access, and accepting tradeoffs between price, distance, and comfort.
+
+MANUAL_COLLECTION_SPACE:
+Paste selected relevant public post/comment text here if your course permits using it. Remove Reddit UI noise such as Reply, Award, Share, Sort by, and vote counts.

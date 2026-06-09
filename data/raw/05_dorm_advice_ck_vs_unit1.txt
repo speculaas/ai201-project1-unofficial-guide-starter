@@ -1,0 +1,16 @@
+TITLE: dorm advice
+SOURCE: Reddit r/berkeley
+URL: https://www.reddit.com/r/berkeley/comments/tvuyj6/dorm_advice/
+DATE_ACCESSED: 2026-06-08
+TOPIC: Clark Kerr vs Unit 1, social life, Greek life, room size, location
+DOCUMENT_TYPE: Reddit thread starter file
+COPYRIGHT_NOTE: This file contains metadata plus a brief paraphrased summary/short excerpt for project setup. For your final corpus, open the URL and manually paste only the post/comments you are allowed to use under your course policy, or cite the URL and keep this as a summarized source.
+
+SUMMARY:
+Prospective student compares Clark Kerr and Unit 1 for a triple, social dorm life, Greek life, and access to activities. Comments frame Clark Kerr as having larger rooms and a Greek-life/social feel but worse access to late-night food and campus; Unit 1 is framed as more convenient and closer to things to do.
+
+SHORT_EXCERPT_OR_NOTES:
+One response says choose Clark Kerr if prioritizing social/Greek-life feel and bigger rooms, but choose Unit 1 if prioritizing location and access. Another says CK is social but farther from campus, while Unit 1 has more nearby food and activities.
+
+MANUAL_COLLECTION_SPACE:
+Paste selected relevant public post/comment text here if your course permits using it. Remove Reddit UI noise such as Reply, Award, Share, Sort by, and vote counts.

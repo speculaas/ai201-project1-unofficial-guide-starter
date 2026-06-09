@@ -1,0 +1,16 @@
+TITLE: Off-campus Housing Search Tips
+SOURCE: Reddit r/berkeley
+URL: https://www.reddit.com/r/berkeley/comments/zba1qb/offcampus_housing_search_tips/
+DATE_ACCESSED: 2026-06-08
+TOPIC: off-campus housing search timing, listings, Craigslist, Zillow, agencies
+DOCUMENT_TYPE: Reddit thread starter file
+COPYRIGHT_NOTE: This file contains metadata plus a brief paraphrased summary/short excerpt for project setup. For your final corpus, open the URL and manually paste only the post/comments you are allowed to use under your course policy, or cite the URL and keep this as a summarized source.
+
+SUMMARY:
+First-year student asks when and where to start looking for next year’s housing. Comments recommend late February or early March for listings, spring semester for apartment hunting, Craigslist, Zillow, Trulia, Facebook, walking around to call “for rent” signs, and rental agencies.
+
+SHORT_EXCERPT_OR_NOTES:
+Comments suggest starting around late February or early March, using Zillow/Craigslist/Trulia/Facebook, checking rental agencies, and calling phone numbers on for-rent signs when walking near buildings.
+
+MANUAL_COLLECTION_SPACE:
+Paste selected relevant public post/comment text here if your course permits using it. Remove Reddit UI noise such as Reply, Award, Share, Sort by, and vote counts.
