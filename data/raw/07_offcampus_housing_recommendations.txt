@@ -13,4 +13,26 @@ SHORT_EXCERPT_OR_NOTES:
 A commenter says Berkeley housing is expensive and older; $2,000 may get a studio/1-bedroom or a room in a shared apartment, but in-unit laundry and private bathroom together may cost more. Others recommend Facebook groups, Craigslist, Apartments.com, and CalRentals while avoiding scams.
 
 MANUAL_COLLECTION_SPACE:
-Paste selected relevant public post/comment text here if your course permits using it. Remove Reddit UI noise such as Reply, Award, Share, Sort by, and vote counts.
+
+Original post:
+A transfer student coming to UC Berkeley asked for off-campus housing recommendations. Their budget was around $2,000 per month for rent, and they hoped to find a unit with in-unit laundry and a private bathroom.
+
+Selected student advice:
+One student recommended trying the UC Berkeley off-campus Facebook housing group. They said students can often find a single room for around $1,200. They also warned that if off-campus housing prices are approaching on-campus housing prices, the student may either be getting a very nice place or spending too much.
+
+Another student recommended using CalRentals, describing it as a Berkeley-specific housing resource similar to Craigslist. They said the student could find something good with that budget, but it may take time. They also warned the student to avoid scams.
+
+Another commenter asked the student to prioritize what mattered most: the $2,000 budget, in-unit laundry, or a private bathroom. In their experience, Berkeley’s housing market is expensive and much of the housing stock is older. They said that if budget is the top priority, the student will need to be flexible about amenities.
+
+The same commenter said $2,000 may be enough for a decent studio or one-bedroom apartment, which would provide a private bathroom. However, they warned that in-unit laundry can be rare at that price range because many older Berkeley buildings have communal laundry rooms. They said newer and more expensive buildings are more likely to have in-unit laundry.
+
+They also said that $1,500–$2,000 may be enough to get a private room in a shared apartment with in-unit laundry, but the student would likely be in a multi-bedroom unit and may have to share a bathroom with roommates. If the student wants both in-unit laundry and a private bathroom, they may need to pay more than $2,000.
+
+The commenter recommended Craigslist, Apartments.com, and the UC Berkeley Off Campus Housing group as useful resources. However, they warned that scams appear on Craigslist and Facebook. They said scam listings often advertise many attractive amenities, such as air conditioning, parking, pet-friendly leases, short leases, furnished rooms, private bathrooms, and in-unit laundry, all at a suspiciously low price.
+
+Their final warning was: if a housing listing seems too good to be true, it probably is.
+
+Another commenter mentioned The Dwight as one possible option near public transportation, but this was only a single recommendation and should be checked independently before relying on it.
+
+Overall, this thread suggests that Berkeley off-campus housing requires tradeoffs. A $2,000 budget may be realistic for some studios, one-bedrooms, or private rooms, but students may need to compromise on amenities like in-unit laundry or private bathrooms. Commonly recommended search resources include Facebook housing groups, CalRentals, Craigslist, Apartments.com, and UC Berkeley off-campus housing groups. Students should be careful of scams, especially listings with unusually low prices and too many premium amenities.
+

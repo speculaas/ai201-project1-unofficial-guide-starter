@@ -1,0 +1,61 @@
+TITLE: UC Berkeley Official Housing Application and FAQ Notes
+SOURCE: UC Berkeley Housing official website
+URLS:
+- https://housing.berkeley.edu/apply/
+- https://housing.berkeley.edu/resources/faqs/undergraduate-housing-application-faqs/
+- https://housing.berkeley.edu/explore-housing-options/housing-by-user-type/newly-admitted-students/
+- https://housing.berkeley.edu/explore-housing-options/off-campus-housing/
+- https://uc-berkeley.helpscoutdocs.com/article/209-find-off-campus-housing-cal-rentals-staff-top-tips
+DATE_ACCESSED: 2026-06-09
+TOPIC: official UC Berkeley housing application process, housing guarantee, deadlines, broad preferences, offer acceptance, off-campus rental resources
+DOCUMENT_TYPE: Official university support document / cleaned notes for RAG corpus
+DOMAIN: UC Berkeley student housing advice
+
+MANUAL_COLLECTION_SPACE:
+
+UC Berkeley Housing says students apply for campus housing through the Housing Portal. The official Apply page links to application instructions for undergraduate housing, graduate housing, family housing, accommodations, dates and deadlines, and housing application FAQs.
+
+Before applying for housing, students should choose housing preferences. UC Berkeley Housing recommends keeping preferences broad and using “any room size, any location” as the final housing preference to maximize the chance of receiving a housing offer.
+
+New students must accept their offer of admission to UC Berkeley and create a CalNet ID before they can apply for campus housing. UC Berkeley Housing says students cannot access the Housing Portal without a CalNet ID. The housing application has a non-refundable application fee listed by UC Berkeley Housing.
+
+Students need to respond to a housing offer by the deadline in the offer email. For undergraduate students and family student housing, UC Berkeley says the deadline is typically about five days after receiving the offer. Missing the deadline means students are not likely to receive a second offer.
+
+UC Berkeley Housing says housing offers can be accepted or declined, but not changed directly. If a student wants a different room assignment, the student should accept the current offer first and then submit a housing relocation request. Room relocations are not guaranteed.
+
+The Undergraduate Housing Application FAQ says the UC Berkeley housing guarantee is for incoming undergraduate students who meet all deadlines and eligibility requirements. The guarantee does not apply to family student housing or graduate student housing.
+
+The FAQ says students are not required to live on campus. Students may find housing on their own, but UC Berkeley encourages new students to consider on-campus housing for the first year and recommends that students searching off campus use UC Berkeley Off-Campus Rental Services.
+
+The FAQ says the housing application for the following academic year opens each year on February 1. Students should check the Dates and Deadlines page regularly for current application submission dates and housing offer timelines.
+
+The FAQ says undergraduate housing offers are determined through a randomized lottery process. After each housing deadline, applications that meet the priority deadline receive random lottery numbers. The housing office reviews applications in lottery order while considering preferences and available housing inventory.
+
+The FAQ says students can edit housing preferences and roommate groups for up to a week after the application deadline, and doing this does not affect the submission date.
+
+For waitlist-admitted students, the FAQ says they can still receive a housing offer if they complete the housing application by their admissions acceptance deadline and include “Any room size – Any location” as one of their housing preferences. Missing the deadline or failing to accept the admission offer on time may jeopardize the housing guarantee.
+
+The FAQ says selecting “Any room size – Any location” helps broaden the housing options considered. Failing to include this preference may result in not receiving a housing offer and could void an eligible student’s housing guarantee.
+
+The Newly Admitted Students page says new incoming first-year students in 2026–27 are guaranteed an offer for campus housing for their first two years if they meet all deadlines and conditions. The page also says about 96 percent of entering first-year students choose university housing.
+
+The Newly Admitted Students page says first-year students can choose from seven campus residence halls. Residence halls include live-in support staff, utilities, community centers, Wi-Fi, on-site laundry, access to community spaces, nearby or on-site dining commons, a Blue and Gold Meal Plan, and academic/social support resources.
+
+The Newly Admitted Students page says first-year students should accept their admission offer before applying for campus housing, create a CalNet ID, apply through the Housing Portal, and apply by May 2 for first-year housing. Housing offers for first-year students begin in late May, and students usually have about five days to accept an offer. If the initial housing offer is not accepted by the deadline, the housing guarantee no longer applies.
+
+UC Berkeley’s Off-Campus Housing page says UC Berkeley Off-Campus Rental Services, formerly Cal Rentals, is part of UC Berkeley Housing and supports students, faculty, and staff in the off-campus housing search. The service is free for students, faculty, and staff.
+
+UC Berkeley Off-Campus Rental Services provides housing and roommate listings, message boards for roommates and sublets, access to off-campus listings, and a way for area property owners and managers to reach the UC Berkeley community. Students can log in with a CalNet ID to view listings.
+
+UC Berkeley’s off-campus housing tips recommend that students start their search six to eight weeks before their targeted move-in date. For fall semester housing, the guide says late April through early July is an ideal search window. It also recommends creating a budget, making a roommate/group plan, discussing preferences, and considering roommate agreements.
+
+The off-campus housing tips say shared housing is often the most affordable and easiest option to secure. The guide also says co-ops can be a lower-cost housing option and mentions the Berkeley Student Cooperative as a co-op housing resource.
+
+The off-campus housing tips warn that off-campus leases are binding contracts and often last for a full calendar year, not just an academic year. Students should be sure before signing a lease, expect possible application fees, credit checks, and guarantor/co-signer requirements, and understand that landlords may want leases to begin as soon as possible.
+
+The off-campus housing tips say financial aid can be counted as income for off-campus housing applications. The guide also says students should understand how housing type can affect financial aid and should update housing status in CalCentral if housing plans change.
+
+The off-campus housing tips recommend examining rentals carefully for safety features such as working smoke detectors and deadbolt locks. Requests for repairs should be dated and in writing, and students should keep copies of correspondence with landlords.
+
+SOURCE_NOTES_FOR_RAG:
+Use this official document for policy-related questions such as: housing guarantee requirements, whether students need to accept admission before applying for housing, why broad preferences matter, how offers are assigned, what happens if a housing offer deadline is missed, and what official resources exist for off-campus housing. Use Reddit documents for student opinions about dorm quality, social life, landlords, apartments, and neighborhood experiences. When Reddit advice conflicts with this official document, treat this official document as the policy source.

@@ -13,4 +13,27 @@ SHORT_EXCERPT_OR_NOTES:
 Suggestions include Cal Rentals, taking over someone else’s lease, walking around to call signs, co-ops, Facebook groups, Apartments.com, BSC, and looking farther out along bus or BART lines.
 
 MANUAL_COLLECTION_SPACE:
-Paste selected relevant public post/comment text here if your course permits using it. Remove Reddit UI noise such as Reply, Award, Share, Sort by, and vote counts.
+
+Original post:
+A current freshman asked for advice on finding cheap off-campus housing near UC Berkeley for the next academic year. They said they did not know where or when to start looking and felt stressed as a first-generation student.
+
+Selected student advice:
+One student asked how to find out how much financial aid could be used for housing. Another student replied that they had asked the financial aid office and were told to return after filling out FAFSA, when the office would know more about aid amounts. They also mentioned that a friend used financial aid toward apartment rent, but they were not fully sure how that process worked. This suggests students should verify financial aid and housing-budget questions directly with the financial aid office.
+
+Several students recommended the Berkeley Student Cooperative, also called the co-ops, as a potentially affordable housing option. One commenter said the co-ops are among the most affordable options and that entering during the summer may help students gain points for the following fall because of the co-op point system. Another commenter disagreed and said co-ops may not always be affordable without seniority, especially if students end up in triples or quads, and noted that co-op residents also owe weekly labor or workshift hours.
+
+Another student responded that joining in the summer can help students build points. They said they lived in the co-ops for two years, never had more than one roommate, and considered the work manageable. They also said the refrigerators were stocked with food, which made the experience feel valuable. Another former co-op resident said they lived in Stebbins for two years, loved the experience, and made close friends there.
+
+Other students suggested looking at the UC Berkeley off-campus Facebook housing page. One student said that if someone wants cheaper housing, they should be willing to consider a double. Another simply recommended bsc.coop as a resource for Berkeley Student Cooperative housing.
+
+Multiple commenters recommended common housing search websites. One student said they found an apartment through Apartments.com and that CalRentals helped a lot. Another said Craigslist can have good apartments, but students need “scammer literacy” because scams can appear there. This suggests Craigslist can be useful, but students should be careful and skeptical.
+
+One commenter suggested looking at bus lines and BART and finding a place farther from campus. Another said the cheapest places they found were single rooms in houses, around $800 per month before COVID. They recommended looking for rooms that are not specifically advertised toward students, because housing marketed to students can be overpriced. They also warned not to assume that housing in unsafe areas will be cheaper.
+
+Another commenter said students who speak another language may find cheaper room postings in places that serve specific ethnic communities, such as postings at 99 Ranch.
+
+One commenter mentioned rent-by-bed or rent-by-room furnished apartments that offer roommate matching. They said these options can reduce the pressure of finding roommates to sign a lease together. However, this should be treated as one student recommendation and should be verified independently.
+
+Overall, this thread suggests that students looking for cheaper UC Berkeley housing should consider co-ops, Facebook housing groups, CalRentals, Apartments.com, Craigslist, single rooms in houses, doubles, lease-style alternatives, and neighborhoods farther from campus along bus or BART lines. The thread also warns that affordability depends on tradeoffs: distance, roommates, room type, co-op work hours, scam risk, and whether the housing is marketed specifically toward students.
+
+

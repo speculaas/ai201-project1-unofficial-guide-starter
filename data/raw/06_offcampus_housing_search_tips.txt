@@ -13,4 +13,24 @@ SHORT_EXCERPT_OR_NOTES:
 Comments suggest starting around late February or early March, using Zillow/Craigslist/Trulia/Facebook, checking rental agencies, and calling phone numbers on for-rent signs when walking near buildings.
 
 MANUAL_COLLECTION_SPACE:
-Paste selected relevant public post/comment text here if your course permits using it. Remove Reddit UI noise such as Reply, Award, Share, Sort by, and vote counts.
+
+Original post:
+A first-year UC Berkeley student said they were stressed about finding housing for the next academic year. They noticed other students already looking for apartments and rentals but did not know where or when to start. They asked for advice about when and where to begin searching for off-campus housing.
+
+Selected student advice:
+One student said the original poster did not need to panic. They and their roommates did not start looking for an apartment until second semester and eventually found housing in April, although they said April felt late and stressful. They recommended Craigslist, especially apartment tour posts that do not get much attention. In their experience, less polished listings can sometimes lead to affordable apartments with smaller landlords. They also recommended taking pictures of “for rent” phone numbers on buildings and calling directly, because this can help students arrange tours and get ahead of competition.
+
+Another student recommended starting the off-campus housing search around late February or early March because listings for the next school year often begin appearing then. They said many places are not ready to list earlier because landlords may not yet know whether current tenants are renewing. They recommended not stressing too early, and suggested rental agencies such as Ask Rentals and Premium Properties. They said Premium Properties can be more expensive but may have clean and comfortable listings. They also recommended checking Zillow for a few weeks.
+
+Another student said timing depends on budget, but Trulia can have good listings.
+
+Another commenter also recommended starting around February or March. They suggested checking Facebook groups, North Berkeley apartment listings, and Craigslist. They added that their roommates found an apartment during the summer, so it is still possible to find housing later, but it becomes much harder.
+
+Another commenter recommended using Craigslist’s housing section and apartments-for-rent category. They suggested using the map layout and applying budget filters to understand what is available. They said they had moved several times after graduating and had always used Craigslist to find housing.
+
+One student suggested that graduate students, PhD students, or students who prefer a quieter environment consider looking farther from campus, such as North Berkeley, Albany, or El Cerrito. They said this can work especially well for students who only need to be on campus a few days per week. They personally liked living in Albany.
+
+Another student shared a Berkeley-specific student housing website, SG Real Estate Berkeley, and said it had many furnished student housing options and roommate matching for students looking to split an apartment. This may be useful for transfer students or students who do not already know potential roommates, but it should be treated as one student-recommended resource rather than an official university recommendation.
+
+Overall, this thread suggests that UC Berkeley students often begin looking for off-campus housing in late February or March, though some students find housing in April or even during the summer. Commonly mentioned resources include Craigslist, Zillow, Trulia, Facebook housing groups, rental agencies, Apartments.com, North Berkeley listings, and walking around neighborhoods to call “for rent” signs. Students looking for cheaper or quieter housing may need to consider areas farther from campus, such as North Berkeley, Albany, or El Cerrito.
+

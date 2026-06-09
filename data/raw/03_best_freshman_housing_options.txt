@@ -13,4 +13,26 @@ SHORT_EXCERPT_OR_NOTES:
 One comment calls Unit 1 a strong location near Crossroads and high-traffic areas. Another describes Blackwell as newest, Foothill as quieter and closer to engineering, Unit 1/2 as typical social dorms, and Clark Kerr as farther but with bigger rooms.
 
 MANUAL_COLLECTION_SPACE:
-Paste selected relevant public post/comment text here if your course permits using it. Remove Reddit UI noise such as Reply, Award, Share, Sort by, and vote counts.
+MANUAL_COLLECTION_SPACE:
+
+Selected student advice:
+
+One student said they lived in a triple in Unit 1 during their first semester. Although some students complain that triples do not have enough space, this student said they genuinely loved it. They went random for roommates and got along well with both their roommates and their floor. They said students concerned about space can apply for a double or a suite. In their opinion, Unit 1 has one of the best locations among the Units because it is next to Crossroads dining hall and close to high-traffic areas near campus. They also said there are usually people around late at night, which made the area feel safer. They said Unit 1 is comparable in distance to campus to Unit 3 and Blackwell, and they liked the Unit 1 study space because it was usually not crowded.
+
+Another student gave a detailed comparison of several residence halls. They described Blackwell as the nicest, newest, most modern dorm. Some people say Blackwell is anti-social, but the commenter still recommended ranking it first because the building quality is much better than the others. They added that students can find ways to be social in any dorm, and Blackwell is located on Southside near the Units and across from Unit 3.
+
+The same student described Foothill as having mini-suites and a “log cabin” feeling. Because students live with suite-mates rather than a full floor, there are fewer people immediately nearby. Some people say Foothill is anti-social, but this student personally became close with their suite-mates. Foothill is close to CS, EECS, and engineering buildings and is on Northside, which the commenter described as quieter, more peaceful, and generally safer. However, Foothill is farther from the Units and is on a hill, so students with classes on Southside may have a longer uphill walk home.
+
+For Unit 1 and Unit 2, the student said they are basically identical except Unit 2 is a few minutes farther away. They described both as high-rise, traditional college dorms with many people per floor, which makes them more social than Foothill. They said these dorms are good for students who want the closest thing to a stereotypical college dorm experience.
+
+For Unit 3, the student said it is similar to Unit 1 and Unit 2 but older and not as nice. They had heard Unit 3 may be more social than Unit 1 and Unit 2. Unit 3 also has Cafe 3 in the middle and is near Blackwell.
+
+For Stern, the student said it is a women-only dorm next to Foothill and shares the Foothill dining hall.
+
+For Clark Kerr, the student said it is on Southside but farther from campus, possibly a 15–20 minute walk to the edge of campus. They said Clark Kerr rooms are bigger, the complex has grassy areas, and it is known for being more “frat-ish.” They personally ranked Clark Kerr lower because of the distance, though they noted some students like it.
+
+The same student gave dining hall opinions from a vegan/vegetarian perspective. They said students can eat at any dining hall, regardless of where they live, although farther dining halls may be inconvenient. They described Crossroads, located between Unit 1 and Unit 2, as mediocre. They said Foothill dining was the worst for vegan and vegetarian options in their experience. They said Cafe 3, located in Unit 3 and near Blackwell, was the best dining hall for vegan and vegetarian options, though it was far from Foothill. They also said Berkeley as a city is very vegan- and vegetarian-friendly, so eating out is easy. Dining halls have vegetarian options, but the quality may not be great.
+
+The student added that getting a single room without accommodations is extremely unlikely. They personally had no issues with their roommate and had a positive roommate experience.
+
+Another commenter summarized the general dorm consensus: Blackwell is usually considered the best dorm, while the Units are all approximately similar. Clark Kerr is farther away from campus, downtown, and Southside Berkeley compared with most other dorms, but it is closer to Frat Row, which may matter for students interested in Greek life. This commenter recommended putting Blackwell first and hoping to win the housing lottery. They also noted that Unit 1 and Unit 2 are very close to a dining hall, while Clark Kerr has its own dining hall.

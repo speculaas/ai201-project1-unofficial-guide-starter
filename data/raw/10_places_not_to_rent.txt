@@ -13,4 +13,35 @@ SHORT_EXCERPT_OR_NOTES:
 The post warns about certain shared spaces and property companies, alleging issues such as pests, overcrowding, maintenance problems, cleanliness concerns, and hard-to-contact management. Treat as subjective student claims.
 
 MANUAL_COLLECTION_SPACE:
-Paste selected relevant public post/comment text here if your course permits using it. Remove Reddit UI noise such as Reply, Award, Share, Sort by, and vote counts.
+
+Original post:
+A student created a warning thread for UC Berkeley students looking for housing near the start of the next school year. They said students can become desperate as housing gets harder to find and may rent places without fully researching them, especially if they are unfamiliar with the area. The poster listed several buildings and property companies that, based on their own claims and things they had heard from others, students may want to research carefully before renting.
+
+Selected student warnings:
+The original poster warned about Telegraph Commons, claiming that it was overpriced, had small rooms, dirty bathrooms, possible pest issues, and water-quality concerns. Another commenter agreed and said they also considered Telegraph Commons overpriced for what residents receive.
+
+The original poster warned about The Berk, claiming that staff were rude, the building had pest issues, bathrooms were not cleaned often enough, and residents frequently tried to sublet. Another commenter strongly agreed about The Berk on Arch, saying they had a severe pest-related experience there and felt the building’s response was inadequate. They also claimed belongings could be stolen. However, other commenters clarified that there may be more than one Berk location. One student said The Berk on College was fairly okay and better than other complexes they had seen. They described it as a useful starting point for new students who want a built-in social community, with amenities such as a lounge, pool table, common kitchen, private bathroom/shower in each room, and rooftop space. That commenter said The Berk on Arch was very different and had more problems.
+
+The original poster warned about Casa Cedar, claiming it was overcrowded and overpriced.
+
+The original poster also warned about The Berkeley Group, saying they had heard many stories about tenants struggling to get serious maintenance issues fixed. They described one example where a friend’s apartment had rain-related damage from a leaking roof or ceiling and claimed the issue was not handled well.
+
+The original poster warned about SG Real Estate, claiming that one friend’s bathroom sink did not work for months and that management made excuses. Another commenter also reported a negative experience with SG Real Estate, saying their roommates had signed a lease but then had trouble getting responses from the company after a lease-related problem.
+
+Several students discussed Greystar. One commenter said they had heard bad things but had not rented from them personally. Another claimed that Greystar managed The Berk. A different commenter said they rented from a Greystar-managed apartment in Oakland and had a negative experience with management, including changing staff and difficulty receiving their security deposit after moving out. Another student claimed that a Greystar-managed building had recurring elevator and laundry issues, moldy machines, package policy changes, and poor management communication, although they praised the repair worker.
+
+One commenter warned against Raj Properties and its subsidiaries, claiming the apartments were poor quality and not well maintained.
+
+Another commenter said their friends had negative experiences with Premium Properties, so they personally tried to avoid them.
+
+One commenter said BSC co-ops are not for everyone and should be researched carefully before applying or accepting housing.
+
+Another commenter warned about Spectra Southside, saying their experience there was very negative. They complained about communal bathrooms, the tenant mix, a frequently broken water machine, and a communal kitchen that was under construction.
+
+Tenant resources and positive recommendations:
+One commenter suggested the Berkeley Tenants Union as a resource for renters having trouble getting landlords to fix issues. They said tenants experiencing problems with repairs or landlord communication could seek support and information about renter rights.
+
+Some commenters also shared positive experiences with apartment managers. One student recommended Lapham Company, saying their apartments were nice, maintenance was excellent, and prices were not extremely high. Another student said they had no problems with AP Management and that North Berkeley Properties was connected to the same people. Several students said AP Management was responsive, fixed maintenance issues within a few days, and communicated well by email. Another commenter said Brick and Timber was somewhat expensive but generally good.
+
+Overall, this thread should be treated as subjective student testimony rather than verified housing data. It is useful for identifying buildings or companies that students may want to research more carefully, but any specific claim should be verified through multiple sources, lease documents, official tenant resources, direct tours, and communication with current residents. The thread also shows that experiences can vary by building location, management team, and individual tenant situation.
+

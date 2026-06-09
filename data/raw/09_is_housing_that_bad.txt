@@ -13,4 +13,34 @@ SHORT_EXCERPT_OR_NOTES:
 Students say the issue is less total impossibility and more high prices. Suggestions include starting early, co-ops, roommates, Oakland/areas farther away, BART/bus access, and accepting tradeoffs between price, distance, and comfort.
 
 MANUAL_COLLECTION_SPACE:
-Paste selected relevant public post/comment text here if your course permits using it. Remove Reddit UI noise such as Reply, Award, Share, Sort by, and vote counts.
+
+Selected student advice:
+
+One student said UC Berkeley housing is harder than in some lower-cost college areas, but they had not heard many stories of students becoming literally homeless because they could not find housing. Their view was that Berkeley housing is mostly expensive rather than impossible. They also said there are aid opportunities available, although housing is still a significant problem.
+
+Another student said co-ops can be a good option if students are able to complete the required work hours. They said they expected to pay around $950. This suggests co-ops may be cheaper than many apartments, but they require labor commitments.
+
+One student said they stayed in a sorority for all four years of undergrad partly because it provided guaranteed cheaper housing. They estimated the total cost was around $1,500 per month including rent, utilities, dues, social events, meals, and other benefits. As a graduate student, they said they were able to find nicer places, but the prices were still difficult, around $1,400 per month just for rent.
+
+Several students emphasized that students should start looking early. One student said they found reasonable and affordable housing because they started hunting and applying in November for the following academic year, which also allowed them to negotiate rent. However, when another student asked whether December or January was a good time to look, the commenter clarified that they would not necessarily recommend signing that early. Their advice was to keep an eye on places as soon as possible, but avoid entering lease agreements too early because better options may appear later.
+
+Another student said cheap housing is hard to find near Berkeley. They explained that if students can afford around $2,500–$3,000 per month to live alone, or around $4,000 total split among roommates, they will have more options. They clarified that a $4,000 apartment would usually be split among multiple tenants, for example three or four roommates. They said finding an apartment under $4,000 total within walking distance of campus can be difficult and competitive, while luxury apartments near campus may be expensive but more available.
+
+One student said living 15–20 minutes away from campus by car can make cheaper housing much easier to find. They found a room in downtown Oakland for around $700 per month, with their own room in a house, a backyard, and shared bathrooms. Their commute was about 14 minutes by car or 23 minutes by BART. They later found another room for around $733. They noted that their identity and age as an older transfer/re-entry student may have affected their housing search and ability to find non-student housing.
+
+Another student found a two-bedroom, one-bath apartment for $2,800 per month, with laundry in the building, water and trash paid by the landlord, and electricity paid by the tenants. The apartment was a 25-minute walk from campus but near bus lines. They split the rent with one roommate, paying around $1,400 per month.
+
+One commenter said that because some freshmen did not get housing, they considered the housing situation pretty bad.
+
+Another commenter said that in graduate school they split a four-bedroom, two-bath house with a yard and large kitchen for around $3,000 per month total, but estimated that the same place might cost around $5,000 per month now. Another student compared this with their own situation, saying they split a two-bedroom, two-bath apartment with limited space for around $3,100 per month, not including water or utilities, and that it was one of the cheapest places they found.
+
+One student said conditions may improve if planned dorms and apartments are built without further delays. They mentioned possible future housing developments around People’s Park, Oxford/Center, and Walnut Street for transfer students.
+
+Another student said they chose to live in Oakland for their senior year because they wanted a more comfortable and nicer place. They found a two-bedroom apartment for $2,300 per month total, making their share around $1,150 per month. Since they had a car, they were willing to pay for campus parking. Their advice was that students with a car or access to one may want to look farther from campus for better amenities and more reasonable prices.
+
+Another student summarized the situation by saying Berkeley housing is bad if students want cheap housing, but manageable with roommates. They estimated that students might pay around $800–$1,000 per month when sharing with several roommates. They personally lived in a two-bedroom, one-bath apartment with one roommate and paid around $1,500 per month.
+
+A final student said Berkeley housing was not as bad as they expected. They said popular apartments can be expensive, but less popular apartments or houses may be closer to $1,200 per month, especially if students are willing to use shared spaces creatively. They came from Santa Barbara expecting horror stories, but found Berkeley housing to be sufficient and around the same price as the Santa Barbara area.
+
+Overall, this thread suggests that UC Berkeley housing is difficult mainly because it is expensive, competitive, and requires tradeoffs. Students who want to live alone or very close to campus may pay much more. Students who are flexible about roommates, co-ops, houses, Oakland, BART/bus access, or less popular apartments may find more affordable options. The common advice is to start looking early, compare options carefully, consider co-ops or shared housing, and understand that cheaper housing often means accepting distance, roommates, older buildings, or less convenience.
+
