@@ -2,7 +2,7 @@
 
 ## Domain
 
-My domain is student-generated housing advice for UC Berkeley students. This knowledge is valuable because official housing pages explain policies and options, but students often want practical advice about dorm social life, distance to campus, off-campus apartment searches, affordability, scams, co-ops, and places to avoid. That advice is scattered across Reddit threads and can be hard to search because students use informal language and compare options from personal experience.
+My domain is UC Berkeley housing advice, mostly student-generated Reddit advice plus one official UC Berkeley housing reference. This knowledge is valuable because official housing pages explain policies and deadlines, but students also want practical advice about dorm social life, distance to campus, off-campus apartment searches, affordability, scams, co-ops, and places to avoid. That advice is scattered across threads and official pages, and the student advice often uses informal language.
 
 ## Documents
 
@@ -18,16 +18,17 @@ My domain is student-generated housing advice for UC Berkeley students. This kno
 | 8 | cheap off campus housing options | Lower-cost options such as co-ops, lease takeovers, Facebook groups, and transit-accessible housing | `data/raw/08_cheap_offcampus_housing_options.txt` |
 | 9 | Is the housing situation THAT bad? | High-level discussion of Berkeley housing difficulty and affordability | `data/raw/09_is_housing_that_bad.txt` |
 | 10 | LIST OF PLACES YOU SHOULD !NOT! RENT | Subjective warning thread about specific buildings and property management issues | `data/raw/10_places_not_to_rent.txt` |
+| 11 | UC Berkeley Official Housing Application and FAQ Notes | Official notes on housing applications, guarantees, deadlines, broad preferences, and off-campus rental services | `data/raw/11_uc_berkeley_official_housing_application_faq.txt` |
 
 The original URLs for each Reddit thread are listed in `source_manifest.md` and in each raw document header.
 
 ## Chunking Strategy
 
-**Chunk size:** 900 characters.
+**Chunk size:** about 1000 characters.
 
-**Overlap:** 150 characters, only when a section is long enough to require splitting.
+**Overlap:** 150 characters, only when a paragraph or combined chunk is long enough to require splitting.
 
-**Reasoning:** These starter documents are short Reddit-thread summaries and source notes, not long PDFs. Each file usually contains one complete student-advice topic, so paragraph-aware chunks preserve coherent thoughts better than a blind fixed-width split. A 900-character target is large enough to keep the title, summary, and short notes together when possible, while still small enough that retrieval can match focused questions about Clark Kerr, Unit 1, off-campus search timing, co-ops, or scams. The 150-character overlap protects the boundary when a long note has to be split.
+**Reasoning:** The final raw files put real collected content under `MANUAL_COLLECTION_SPACE:`. I only chunk that section and ignore helper summaries/notes so retrieval uses the actual corpus. Paragraph-aware chunks preserve coherent student advice better than a blind fixed-width split. A 1000-character target is large enough to keep context, while still small enough that retrieval can match focused questions about Clark Kerr, Unit 1, off-campus search timing, co-ops, official deadlines, or scams. The 150-character overlap protects the boundary when a long paragraph has to be split.
 
 ## Retrieval Approach
 
@@ -43,13 +44,13 @@ The original URLs for each Reddit thread are listed in `source_manifest.md` and 
 |---|----------|-----------------|
 | 1 | Which UC Berkeley dorms do students recommend for freshmen who care about social life? | Unit 1, Unit 2, Unit 3, and Clark Kerr appear as social options, with tradeoffs around location, room size, and convenience. |
 | 2 | What are the main tradeoffs between Clark Kerr and Unit 1? | Clark Kerr is described as more spacious and social/Greek-life adjacent but farther from campus; Unit 1 is described as more convenient and closer to food and activities. |
-| 3 | When do students suggest starting the off-campus housing search? | Students suggest starting in spring semester, often around late February or early March, while noting April can still work but may be stressful. |
-| 4 | What resources do students mention for finding off-campus housing? | Students mention Cal Rentals, Craigslist, Zillow, Trulia, Facebook groups, rental agencies, walking around for signs, lease takeovers, co-ops, and transit-accessible neighborhoods. |
+| 3 | When do students suggest starting the off-campus housing search? | Students suggest starting in spring semester, often around late February or early March, while noting April or summer can still work but may be stressful. Official UC Berkeley guidance says six to eight weeks before target move-in, with late April through early July as an ideal fall window. |
+| 4 | What resources do students mention for finding off-campus housing? | Students mention Cal Rentals / UC Berkeley Off-Campus Rental Services, Craigslist, Zillow, Trulia, Facebook groups, rental agencies, Apartments.com, walking around for signs, lease takeovers, co-ops/BSC, SG Real Estate Berkeley, and transit-accessible neighborhoods. |
 | 5 | Which apartment has the objectively lowest crime risk near UC Berkeley? | The system should say it does not have enough information because the corpus contains subjective housing advice, not verified crime statistics. |
 
 ## Anticipated Challenges
 
-1. The starter corpus contains summaries and selected notes rather than full Reddit threads, so retrieval may miss details that would exist in manually collected comments. If that happens, the fix is to paste permitted excerpts into `MANUAL_COLLECTION_SPACE` and rerun ingestion through embedding.
+1. The corpus is cleaned notes rather than full raw Reddit pages, so retrieval may miss details that were not selected during collection. If that happens, the fix is to add more permitted excerpts under `MANUAL_COLLECTION_SPACE` and rerun chunking and embedding.
 
 2. Some sources are subjective warning threads. The generation prompt must avoid turning student complaints into verified facts and should phrase them as student-reported experiences.
 
@@ -68,7 +69,7 @@ flowchart LR
 
 ## AI Tool Plan
 
-**Milestone 3 - Ingestion and chunking:** I will give ChatGPT/Codex my Documents and Chunking Strategy sections and ask it to implement `src/ingest.py` and `src/chunk.py`. I expect it to produce a metadata parser, noise cleaner, JSONL output, and paragraph-aware chunking function. I will verify by reading the generated `data/processed/documents.jsonl` and inspecting at least five chunks printed by `python src/chunk.py`.
+**Milestone 3 - Ingestion and chunking:** I will give ChatGPT/Codex my Documents and Chunking Strategy sections and ask it to implement `src/chunk.py`. I expect it to produce a metadata parser, noise cleaner, JSONL output, and paragraph-aware chunking function that chunks only `MANUAL_COLLECTION_SPACE:` content. I will verify by inspecting at least five chunks printed by `python src/chunk.py`.
 
 **Milestone 4 - Embedding and retrieval:** I will give ChatGPT/Codex my Retrieval Approach and Architecture sections and ask it to implement `src/embed.py` and `src/retrieve.py` using `sentence-transformers` and ChromaDB. I expect scripts that store chunks in a persistent local vector database and print retrieved chunks with source metadata. I will verify by running the first three evaluation questions in retrieval-only mode and checking whether the returned chunks match the expected answers.
 
